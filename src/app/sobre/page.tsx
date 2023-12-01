@@ -3,8 +3,8 @@ export default function about(){
         <div className="w-[100vw] p-[15vmin] h-[100vh] flex flex-col justify-around items-center bg-[#f6f7fb] text-black ">
             <div className="bg-[#ffffff]">
                 <Logo/>
-                <p className="p-[15vmin] text-justify text-xl">
-                    Somos uma empresa comprometida com a missão de oferecer polímeros triturados e limpos, provenientes da reciclagem de plástico PET. Nosso foco está na promoção da economia circular e na redução do impacto ambiental, contribuindo para um futuro mais verde. A Poliprocess está localizada no norte de Minas Gerais, em Janaúba.
+                <p className="p-[10vmin] text-left text-xl sm:p-[15vmin]">
+                    Somos uma empresa comprometida com a missão de oferecer polímeros, provenientes da reciclagem de plástico PET. Nosso foco está na promoção da economia circular e na redução do impacto ambiental, contribuindo para um futuro mais verde. A Poliprocess está localizada no norte de Minas Gerais, em Janaúba.
                 </p>
             </div>
         </div>
