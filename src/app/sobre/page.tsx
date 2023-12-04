@@ -1,3 +1,6 @@
+"use client";
+import { GoBack, Logo} from '@/app/sobre/_components';
+
 export default function about() {
     return (
         <div className=" min-h-[100vh] w-[100vw] flex flex-col  items-center bg-[#fafafa] text-[#303030] md:flex-row sm:items-center sm:justify-end pt-[10vmin]">
@@ -9,28 +12,10 @@ export default function about() {
                 </p>
 
             </div>
-            <div className="flex justify-end items-end md:w-[40%] w-[30%]   pr-[5vmin]">
+            <div className="flex justify-end items-end md:w-[40%] w-[70%]   pr-[5vmin]">
                 <img src="/about-removebg.png" alt="" className=" z-0 scale-x-[-1] " />
             </div>
             <GoBack />
         </div>
     );
 }
-
-function Logo() {
-    return (
-        <h1 className="text-3xl sm:text-3xl md:text-4xl  text-[#303030]  rounded-lg text-left ">| Poliprocess</h1>
-    );
-
-}
-
-function GoBack() {
-    return (
-        <a href="/" >
-            <span className=" text-[#00000092]  font-bold absolute left-[2vmin] top-[1vmin] z-10 text-base sm:text-xl "> &lt;-- </span>
-        </a>
-    );
-
-}
-
-// Somos uma equipe comprometida com a missão de oferecer polímeros triturados e limpos, provenientes da reciclagem de plástico PET. Nosso foco está na promoção da economia circular e na redução do impacto ambiental, contribuindo para um futuro mais verde.

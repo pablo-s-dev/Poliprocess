@@ -1,3 +1,4 @@
+"use client";
 export default function Title() {
   return (
     <div className='flex flex-col  justify-center z-20 max-w-fit items-left place-self-start  gap-[1.5vmin]    p-[4vmin] sideline ml-[1vmin] mb-[10vmin] md:mb-[10vmin] '>

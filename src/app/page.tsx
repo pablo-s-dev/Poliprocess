@@ -2,9 +2,7 @@
 
 
 import ReactLoading from 'react-loading';
-import Title from "@/app/_components/Title";
-import HomepageButton from "@/app/_components/HomepageButton";
-import Background from "@/app/_components/Background";
+import { Title, Background, HomepageButton } from '@/app/_components';
 import { useEffect, useState } from "react";
 
 
